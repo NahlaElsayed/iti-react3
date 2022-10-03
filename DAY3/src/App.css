@@ -1,0 +1,120 @@
+.nav {
+    height: 5em;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 3, 34);
+}
+
+.main {
+    font-size: 1.25em;
+}
+.navItem {
+    display: inline-block;
+    list-style: none;
+    padding: 1em 2em;
+}
+.navLink {
+    color: white;
+    text-decoration: none;
+}
+
+.productContainer {
+    height: 35em;
+    width: 25em;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    margin: 3em;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.15);
+}
+
+.productTitle {
+    height: 40%;
+    display: flex;
+    place-items: center;
+    font-size: 1.25em;
+}
+.productActions {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+.productButton {
+    padding: 1em;
+    margin: 0.5em 0;
+    background-color: rgb(0, 3, 34);
+    color: white;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+}
+.productLink {
+    color: white;
+    text-decoration: none;
+}
+
+.form__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    height: 30vh;
+    padding: 3em;
+    border-radius: 2em;
+    border: 1px solid #ddd;
+}
+
+.input__field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit__btn {
+    padding: 1em;
+    margin: 0 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000322;
+
+    transition: all 150ms ease-in-out;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.submit__btn:hover {
+    background: #000322;
+    color: white;
+}
+
+.form__input {
+    margin: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.25em;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 black;
+    transition: all 150ms linear;
+}
+
+.form__input:focus {
+    outline: none;
+    box-shadow: 4px 4px 0 #010b7a;
+}
